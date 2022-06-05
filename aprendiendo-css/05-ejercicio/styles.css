@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#general {
+    width: 1200px;
+    margin: 0px auto;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+#cabecera {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(82, 113, 179);
+    color: white;
+    text-align: center;
+    line-height: 90px;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+#menu {
+    background-color: #eeeeee;
+}
+
+#menu ul li {
+    /* display: inline;*/
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ccc;
+}
+
+#menu ul li a {
+    color: #444;
+}
+
+#menu ul li a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#contenido {
+    width: 69%;
+    float: left;
+}
+
+#lateral {
+    width: 30%;
+    border: 1px solid red;
+    float: left;
+    min-height: 500px;
+    text-align: center;
+}
+
+#contenido > h1 {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    color: #444;
+}
+
+#contenido .caja {
+    width: 40%;
+    height: 250px;
+    background-color: red;
+    border: 5px solid blue;
+    color: white;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+#piepagina {
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+    color: #444;
+    height: 55px;
+    line-height: 55px;
+    border-top: 1px solid #ccc;
+}

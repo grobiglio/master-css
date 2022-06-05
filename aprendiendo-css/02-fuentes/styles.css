@@ -1,0 +1,19 @@
+@font-face {
+    font-family: FuentePersonalizada;
+    src: url(fuentes/TenaliRamakrishna-Regular.ttf);
+}
+
+h1 {
+    font-family: 'Mansalva', cursive;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+h3 {
+    font-family: TenaliRamakrishna-Regular, "Comic Sans MS";
+    font-size: 25px;
+}
+p {
+    font-family: FuentePersonalizada, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,76 @@
+/* ----- SELECTORES ----- */
+/*
+Se pueden seleccionar elementos de HTML en base a
+sus etiquetas, sus id, sus clases.
+*/
+
+/* Selector universal */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Selector de etiqueta */
+h1 {
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+a {
+    font-size: 18px;
+    color: greenyellow;
+    text-decoration: none;
+}
+
+footer a {
+    color: red;
+}
+
+/* Selector de id */
+#descripcion {
+    border: 5px solid black;
+    padding: 10px;
+}
+
+#parr1 {
+    font-style: italic;
+}
+
+/* Selector de clase */
+.parr2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.parr3 {
+    background: beige;
+}
+
+/* Selector de atributo */
+#usuario form {
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 5px;
+}
+
+#usuario form * {
+    display: block;
+}
+
+input[type="text"] {
+    margin-bottom: 15px;
+    background: rebeccapurple;
+}
+
+/* Selector de hijo */
+#menu > li > a {
+    text-decoration: underline;
+}
+
+/* Prioridad */
+/* Las reglas específicas tienen prioridad superior */
+#saludo h1 {
+    background-color: steelblue;
+}
+h1 {
+    background-color: rgb(106, 138, 120) !important;
+}
